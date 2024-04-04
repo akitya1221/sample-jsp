@@ -12,6 +12,6 @@ OutputDto output_data = (OutputDto) request.getAttribute("output_data");
 <title>Insert title here</title>
 </head>
 <body>
-	<label>BMI：</label><%= output_data.getBmi() %><br>
+	<label>BMI：</label><%= String.valueOf(output_data.getBmi()) %><br>
 </body>
 </html>

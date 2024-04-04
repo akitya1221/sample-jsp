@@ -1,19 +1,13 @@
 package model;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
 public class OutputDto {
-	private double bmi;
-	private BigDecimal bd_bmi;
+	private int bmi;
 	
-	public void setBmi(Double bmi) {
-		bd_bmi = BigDecimal.valueOf(bmi).setScale(-1, RoundingMode.HALF_UP);
-		bmi = bd_bmi.doubleValue();
+	public void setBmi(int bmi) {
 	    this.bmi = bmi;
 	  }
 
-	  public double getBmi() {
+	  public int getBmi() {
 	    return this.bmi;
 	  }
 }
