@@ -9,7 +9,8 @@
 <body>
 	<h1>JSP学習</h1>
 	<p>TestClassから呼び出されました。</p>
-	<form action="/web-app-sample/Test" method="post">
+	<h2>登録</h2>
+	<form action="/sample-jsp/Test" method="post">
 		<label>名前：</label><input type="text" name="name"><br>
 		<label>身長：</label><input type="text" name="height">(cm)<br>
 		<label>体重：</label><input type="text" name="weight">(kg)<br>

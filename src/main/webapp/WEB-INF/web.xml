@@ -10,7 +10,7 @@
     <servlet-name>SampleTest</servlet-name>
     <url-pattern>/SampleTest</url-pattern>
   </servlet-mapping>
-  <display-name>web-app-sample</display-name>
+  <display-name>sample-jsp</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>

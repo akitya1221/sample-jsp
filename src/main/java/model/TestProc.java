@@ -4,7 +4,8 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class TestProc {
-	public OutputDto  TestProcess(InputDto data) {
+	// BMI算出処理
+	public OutputDto  CalcBmi(InputDto data) {
 		BigDecimal bd_bmi;
 		int bmi;
 	    // BMIを算出して設定

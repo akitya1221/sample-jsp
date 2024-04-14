@@ -12,6 +12,13 @@ OutputDto output_data = (OutputDto) request.getAttribute("output_data");
 <title>Insert title here</title>
 </head>
 <body>
+	<h2>計算結果</h2>
 	<label>BMI：</label><%= String.valueOf(output_data.getBmi()) %><br>
+	
+	<h2>登録情報</h2>
+	<%-- <%= for (int i = 0; i < select_data.length; i++) { %> --%>
+		<%-- <p><%= select_data %></p> --%>
+	<%-- <%=	} %>  --%>
+	
 </body>
 </html>
